@@ -1,121 +1,74 @@
-# noobs
-my first pythoning
 
-__my boyfriend's da best__
+windows + r = executer
+dann cmd eingeben = terminal
 
-Python 3.7.2 (tags/v3.7.2:9a3ffc0492, Dec 23 2018, 22:20:52) [MSC v.1916 32 bit (Intel)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
->>> "the_world_is_round" = true
-SyntaxError: can't assign to literal
->>> true = 1
->>> "the world is round" = true
-SyntaxError: can't assign to literal
->>> 
->>> "what's for dinner"
-"what's for dinner"
->>> 'what/'s for dinner"
-SyntaxError: invalid syntax
->>> "haha" * 250
-'hahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahaha'
->>> "hi" + "there"
-'hithere'
->>> "H" + "E"
-'HE'
->>> print("hi"[0])
-h
->>> print("hey, matilda"[7])
-t
->>> print("yo"[4])
-Traceback (most recent call last):
-  File "<pyshell#11>", line 1, in <module>
-    print("yo"[4])
-IndexError: string index out of range
->>> print("coolio"[3-1])
-o
->>> "coolio[3-1]"
-'coolio[3-1]'
->>> 6*6
-36
->>> puppies = 6*6
->>> puppies
-36
->>> puppies
-36
->>> 36
-36
->>> color = "yellow"
->>> color
-'yellow'
->>> puppies = 12*12
->>> fishes = 3
->>> fishes + puppies
-147
->>> fishes - puppies
--141
->>> fishes*fishes
-9
->>> puppies/fishes
-48.0
->>> color = "yellow"
->>> day = "monday"
->>> color + day
-'yellowmonday'
->>> day+color
-'mondayyellow'
->>> color*fishes
-'yellowyellowyellow'
->>> day = puppies
->>> day + puppies
-288
->>> color + puppies * fishes
-Traceback (most recent call last):
-  File "<pyshell#34>", line 1, in <module>
-    color + puppies * fishes
-TypeError: can only concatenate str (not "int") to str
->>> color + day * fishes
-Traceback (most recent call last):
-  File "<pyshell#35>", line 1, in <module>
-    color + day * fishes
-TypeError: can only concatenate str (not "int") to str
->>> color + fishes * fishes
-Traceback (most recent call last):
-  File "<pyshell#36>", line 1, in <module>
-    color + fishes * fishes
-TypeError: can only concatenate str (not "int") to str
->>> color = "yellow"
->>> day = "Monday"
->>> fishes = 3
->>> color + day * fishes
-'yellowMondayMondayMonday'
->>> (color + day) * fishes
-'yellowMondayyellowMondayyellowMonday'
->>> color+day
-'yellowMonday'
->>> fruit = "watermelon"
->>> Fruit[2]
-Traceback (most recent call last):
-  File "<pyshell#44>", line 1, in <module>
-    Fruit[2]
-NameError: name 'Fruit' is not defined
->>> fruit[2]
-'t'
->>> mynumber = 3
->>> fruit[mynumber-2]
-'a'
->>> fruit = "watermelon"
->>> fruit
-'watermelon'
->>> fruit == "watermelon"
-True
->>> fruit = watermelon
-Traceback (most recent call last):
-  File "<pyshell#51>", line 1, in <module>
-    fruit = watermelon
-NameError: name 'watermelon' is not defined
->>> five = 6
->>> 5 == 6
-False
->>> five
-6
->>> 
+https://github.com/
+https://www.python-kurs.eu/kurs.php
+https://python-programmieren.com/
+https://de.wikihow.com/Mit-Programmierung-in-Python-beginnen
+http://www.pythonmania.de/
+https://wiki.python.org/moin/GermanLanguage
+https://wiki.python.org/moin/BeginnersGuide/NonProgrammers
 
+IDLE = Script, Shell fuehrt aus (Speichern, Run module)
+len heisst length, also die Länge eines Vektors beziehungsweise eines Strings. Ein String ist eine Abfolge von Buchstaben (characters)
+
+
+CODE: wird geschrieben auf Python IDLE (genau wie SHELL interpreter, mit extras)
+Remember that when we type something at that prompt and hit Enter, Idle is:
+    translating what we've typed
+    talking to the computer
+    then getting an answer from the computer and sending it back to us in a language that WE can understand
+
+
+
+Home » Python Tutorial » Intro to Python
+Intro to Python
+
+Contents
+Python is a high level, general purpose programming created by Guido Van Rossum. It was publicly released in 1991. By high level, we mean a language which hides nitty-gritty details from the programmer. Further, It also used to refer to a Computer language which is easy to understand for humans. Python is known for known for its simplicity and readability.
+Features of Python
+Python is Easy
+Python is one of the easiest languages to get started with. Programs written in Python looks very much like the English language. Because of its simplicity, most entry-level programming courses use Python to introduce programming concepts to their students.
+Python is Portable/Platform Independent
+Python is portable which means we can run Python programs in the various different operating system without any changes.
+Python is an Interpreted Language
+Python is an Interpreted language. Languages like C, C++ are examples of compiled language.
+Programs written in a high-level language are called source code or source program and the commands in the source code are called statements. A computer can’t execute a program written in high-level language, it only understands machine language which consists of 0s and 1s only.
+There are two types of programs available to us to translate a high-level language to machine language:
+
+    Compiler
+    Interpreter
+
+Compiler:
+A compiler translates the entire source code into machine language in one go, the machine language is then executed.
+
+program-execution-by-compiler
+Interpreter:
+An interpreter, on the other hand, translates high-level language into machine language line by line, which it then executes. Python Interpreter starts at the top of the file, translates the first line into machine language and then executes it. This process keeps repeating until the end of the file is reached.
+
+
+OPERATORS: + - / *
+
+a decimal number is called a float, if you want integers (ganze zahlen): type round(x/y) oder int(x/y) (bsp round(10/3) wird zu 3
+These are called comparison operators.
+== 	Equal to
+!= 	Not equal to
+< 	Less than
+> 	Greater than
+<= 	Less than or equal to
+>= 	Greater than or equal to
+the answer is going to be either True or False, something we call a Boolean
+
+STRINGS:
+When we use the word string in programming, we're talking about characters, like letters or symbols, or a bunch of characters put together, like words.
+Rule: If you want Python to read a string, it must be inside quotes.
+Concatenation is a little bit like adding - we use it to put strings together side by side.
+And multiplying controls how many times we show a string.
+
+Each of those characters has a position in the string, and that position is called an index. (square brackets) positions start from 0/zero bsp: [4] index = position 4
+If it had quotes around it, Python would treat it like a string.
+Without quotes, Python knows that it's a variable.RULES:Calculate once, keep the result to use later,Keep the same name, change the value
+
+When we're assigning a value, we're saying "this equals that". That's a short sentence, so it only gets one equal sign: =
+But when we're comparing values, we're asking "is this thing equal to that thing?". And that's a longer sentence, so it gets two equal signs: ==
